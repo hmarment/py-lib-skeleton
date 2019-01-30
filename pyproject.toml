@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py-lib-skeleton"
+version = "0.0.1"
+description = ""
+authors = ["Henry Marment <henrymarment@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+flake8 = "^3.7"
+pycodestyle = "^2.5"
+autoenv = "^1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
